@@ -1,6 +1,4 @@
-<p>User-agent: *
-Disallow: /wp-admin/
-Allow: /wp-admin/admin-ajax.php
+User-agent: *
+Allow: /
 
-Sitemap: http://localhost:8888/wp-sitemap.xml
-</p>
+Sitemap: http://localhost:8888/sitemap.xml
