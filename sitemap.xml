@@ -1,13 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>http://localhost:8888/2026/04/26/cli-test/</loc></url>
-  <url><loc>http://localhost:8888/2026/04/26/hello-world/</loc></url>
-  <url><loc>http://localhost:8888/sample-page/</loc></url>
-  <url><loc>http://localhost:8888/category/uncategorized/</loc></url>
-  <url><loc>http://localhost:8888/author/admin/</loc></url>
-  <url><loc>http://localhost:8888/feed/</loc></url>
-  <url><loc>http://localhost:8888/feed/atom/</loc></url>
-  <url><loc>http://localhost:8888/feed/rdf/</loc></url>
-  <url><loc>http://localhost:8888/</loc></url>
-  <url><loc>http://localhost:8888/</loc></url>
+  <url><loc>https://deploy.example/full-e2e/</loc></url>
 </urlset>
