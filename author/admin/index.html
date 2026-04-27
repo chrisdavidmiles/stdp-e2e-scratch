@@ -4,9 +4,10 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="max-image-preview:large">
-<title>static-deploy</title>
+<title>admin – static-deploy</title>
 <link rel="alternate" type="application/rss+xml" title="static-deploy » Feed" href="http://localhost:8888/feed/">
 <link rel="alternate" type="application/rss+xml" title="static-deploy » Comments Feed" href="http://localhost:8888/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="static-deploy » Posts by admin Feed" href="http://localhost:8888/author/admin/feed/">
 <style id="wp-img-auto-sizes-contain-inline-css">
 img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 /*# sourceURL=wp-img-auto-sizes-contain-inline-css */
@@ -525,14 +526,11 @@ html.has-modal-open{
 }
 /*# sourceURL=http://localhost:8888/core/blocks/group/style.css */
 </style>
-<style id="wp-block-heading-inline-css">
-h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-background,h3:where(.wp-block-heading).has-background,h4:where(.wp-block-heading).has-background,h5:where(.wp-block-heading).has-background,h6:where(.wp-block-heading).has-background{
-  padding:1.25em 2.375em;
+<style id="wp-block-query-title-inline-css">
+.wp-block-query-title{
+  box-sizing:border-box;
 }
-h1.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h1.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h2.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h2.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h3.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h3.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h4.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h4.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h5.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h5.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h6.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]){
-  rotate:180deg;
-}
-/*# sourceURL=http://localhost:8888/core/blocks/heading/style.css */
+/*# sourceURL=http://localhost:8888/core/blocks/query-title/style.css */
 </style>
 <style id="wp-block-post-title-inline-css">
 .wp-block-post-title{
@@ -550,12 +548,6 @@ h1.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h1.has-t
   text-decoration:inherit;
 }
 /*# sourceURL=http://localhost:8888/core/blocks/post-title/style.css */
-</style>
-<style id="wp-block-post-date-inline-css">
-.wp-block-post-date{
-  box-sizing:border-box;
-}
-/*# sourceURL=http://localhost:8888/core/blocks/post-date/style.css */
 </style>
 <style id="wp-block-paragraph-inline-css">
 .is-small-text{
@@ -611,6 +603,12 @@ p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[
   display:flow-root;
 }
 /*# sourceURL=http://localhost:8888/core/blocks/post-content/style.css */
+</style>
+<style id="wp-block-post-date-inline-css">
+.wp-block-post-date{
+  box-sizing:border-box;
+}
+/*# sourceURL=http://localhost:8888/core/blocks/post-date/style.css */
 </style>
 <style id="wp-block-post-template-inline-css">
 .wp-block-post-template{
@@ -1163,5 +1161,5 @@ h1, h2, h3, h4, h5, h6, blockquote, caption, figcaption, p {
 
 /*# sourceURL=http://localhost:8888/assets/themes/twentytwentyfive/style.css */
 </style>
-
+<link rel="alternate" title="JSON" type="application/json" href="http://localhost:8888/wp-json/wp/v2/users/1">
 </head></html>
