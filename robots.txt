@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://localhost:8888/sitemap.xml
+Sitemap: https://deploy.example/sitemap.xml
